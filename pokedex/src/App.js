@@ -104,7 +104,7 @@ function App() {
             <img src="PokemonLogo.png" alt="Pokemon Logo" className="logo-image" />
             <img src="pika.gif" alt="Pikachu" className="pikachu-image" />
             <button onClick={handleContinueButtonClick} className="continue-button">
-              Continue
+              <Link to="/">Continue</Link>
             </button>
           </section>
         )}
