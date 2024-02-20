@@ -103,9 +103,12 @@ function App() {
           <section className='hero'>
             <img src="PokemonLogo.png" alt="Pokemon Logo" className="logo-image" />
             <img src="pika.gif" alt="Pikachu" className="pikachu-image" />
-            <button onClick={handleContinueButtonClick} className="continue-button">
-              <Link to="/">Continue</Link>
-            </button>
+            <Link to="/"> 
+              <button onClick={handleContinueButtonClick} className="continue-button">
+                Continue
+              </button>
+            </Link>
+            
           </section>
         )}
         {!showContinueButton && (
