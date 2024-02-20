@@ -114,7 +114,7 @@ function App() {
         {!showContinueButton && (
           <>
             <Link to="/">
-              <img className="headerLogo" src="PokemonLogo.png" alt="Pokemon Logo" style={{ width: '350px' }} />
+              <img className="headerLogo" src="https://github.com/lindsaymei/pokepages/blob/gh-pages/PokemonLogo.png?raw=true" alt="Pokemon Logo" style={{ width: '350px' }} />
             </Link>
             <div className="flex items-center mt-4 filterCont">
               <input
