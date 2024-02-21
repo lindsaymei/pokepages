@@ -20,9 +20,14 @@
         font-weight: normal;
         font-style: normal;
      }
+     /*fixing uneededs scrollbar display on github pages*/
+     *:has(.pokeSearch) {
+        overflow: hidden;
+    }
      /*
      hide unecessary scrollbar
      */
+     
      body{
         overflow-x: hidden;
         /* uncommont and comment overflow to hide just horizontal*/
@@ -51,7 +56,7 @@
           }
           
           
-          
+         
          
         .searchCont{
             height: 100vh;
@@ -161,7 +166,7 @@
         .cards{
             background-image: url('/public/grassbg.png');
             margin: auto;
-            background-size: fill;
+            background-size: contain;
             overflow-x: hidden;
             padding: 1%;
             left:-2.5vw;
@@ -171,7 +176,8 @@
             grid-gap:2.5vw !important; 
             width: 95% !important;
             margin:auto ;
-            height: auto;
+        
+            height: 75vh;
             max-height: 75vh;
             text-align: center;
             overflow-y: scroll ;
